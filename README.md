@@ -13,5 +13,3 @@ But using futures comes with its caveats. Futures expire every quarter and we ne
 In this project we take the S&P 500 index and try to find the optimal roll strategy for a futures + cash portfolio, such that the roll cost is minimised. 
 I use linear programming to find the optimal weights to be rolled on each day (for 5 days) to get the lowest cost possible. 
 The idea and code is replicable to any asset, to compare the friction cost of investing in a future vs asset.
-
-## 
