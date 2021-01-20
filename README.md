@@ -14,11 +14,15 @@ In this project we take the S&P 500 index and try to find the optimal roll strat
 I use linear programming to find the optimal weights to be rolled on each day (for 5 days) to get the lowest cost possible. 
 The idea and code is replicable to any asset, to compare the friction cost of investing in a future vs asset.
 
-## Comparison of Futures and SPX 
+## Comparison of (Futures + Cash) portfolio vs S&P 500 Stock investment 
 
+- Here we have performed a five day roll of the futures with weights that are optimized as per the prices of futures. 
 <img src= "Plots/Cumulative Difference in Returns : (Futures+Cash)- Index : 5 Day ROLL.png">
 
+- This is the one year rolling returns plots
 <img src= "Plots/One year rolling returns - Index vs (Futures+Cash)- 5 Day ROLL.png">
 
 <img src= "Plots/One Year Rolling difference of SPX and futures - 5 Day ROLL.png">
 
+## Conclusion 
+- From the analysis we can see that the investment in futures does require some amount of cost : around 20bps as compared to having a plain stock investment. 
