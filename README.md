@@ -1,6 +1,7 @@
 # SPX_Futures_Roll_Strategy
 If we want to gain a continuous exposure to an illiquid asset, investing in a future and cash portfolio is the best strategy. The Project aims to design the optimal monthly roll strategy for SPX futures such that we have minimum roll cost. I predict the roll cost that can occur over a 1yr rolling basis to find if the futures are costlier than holding a stock. 
 
+
 ## Introduction: 
 To get exposure to any asset, we can either buy the asset or buy the futures traded on the asset. The benefits are : 
 1) Buying the futures provides liquidity to the portfolio. 
